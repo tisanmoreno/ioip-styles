@@ -1,0 +1,13 @@
+.ms-Label,
+.ms-Link,
+.ms-DetailsRow-cell,
+.ms-Button-label,
+.ioip-pagination,
+.ms-TextField-field,
+.ms-Spinner-label,
+.ms-Pivot-text,
+h1,
+p,
+span {
+    font-size: 90% !important;
+}

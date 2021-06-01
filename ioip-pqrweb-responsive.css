@@ -1,0 +1,105 @@
+body {
+  overflow-x: hidden !important;
+}
+.ms-Grid-col.ms-u-sm8 {
+  border: none !important;
+  padding: 0px 0px 30px !important;
+  width: 85% !important;
+  margin: 0 auto !important;
+  float: none !important;
+}
+.ms-Grid-col.ms-u-sm3 {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+.card {
+  border: none !important;
+}
+.ms-Grid-col.ms-md2.ms-lg2.ms-u-hiddenSm {
+  display: none !important;
+}
+.ms-Grid-col.ms-u-sm12.block {
+  margin-top: 10px;
+}
+.ms-Grid-col.ms-u-sm12.block a {
+  font-size: 16px;
+  font-weight: normal;
+}
+  .mt-5.mb-3.text-muted {
+    margin-top: 25px !important;
+}
+#root > div > div.ms-Grid > div > div.ms-Grid-col.ms-u-sm8 > div.ms-Grid > div > div > a:visited {
+    text-decoration: none !important;
+    font-size: .9em;
+}
+#root > div > div.ms-Grid > div > div.ms-Grid-col.ms-u-sm8 > div.ms-Grid > div > div > a {
+    font-size: .9em; 
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width: 340px) {
+  #logodnp {
+    height: 40% !important;
+    width: auto !important;
+  }
+  .ms-Button {
+    margin: 5px 0px !important;
+  }
+  .ms-Grid-col.ms-sm12.ms-md12.ms-lg12 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/* iPads (portrait) */
+@media only screen and (max-width: 835px) {
+  .ms-Grid-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .ms-Grid-col.ms-u-sm3 {
+    display: inherit !important;
+    flex-wrap: wrap !important;
+    width: auto !important;
+    margin: auto !important;
+    max-width: 290px;
+    margin-bottom: 35px !important;
+  }
+  .icon-96 {
+    margin-bottom: 2em !important;
+    margin: 1.5em 2.2em !important;
+  }
+  .ms-Grid-col.ms-u-sm6 {
+    min-width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .ms-Grid-col.ms-u-sm12 {
+    text-align: unset !important; 
+  }
+  .mt-5.mb-3.text-muted {
+    text-align: center !important;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width: 1224px) {
+  .ms-Grid-col.ms-u-sm8 {
+    width: 1050px !important;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1824px) {
+}
+
+#root > div > div.ms-Grid > div > div.ms-Grid-col.ms-u-sm8 > div.ms-Grid > div:nth-child(2) > div:nth-child(5) {
+    display: none !important;
+}
+
+#root > div > div.ms-Grid > div > div.ms-Grid-col.ms-u-sm8 > div.ms-Grid > div:nth-child(3) > div:nth-child(3){
+  display: none !important;
+}

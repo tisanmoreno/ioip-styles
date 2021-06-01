@@ -1,0 +1,282 @@
+/* CUSTOM CLIENT */
+
+/* Sidebar section */
+
+.ms-Button.ms-Button--default.ba-Accordion-header:focus-visible {
+    border: 1.9px solid #8bcdff !important;
+}
+
+/* CommandBar section */
+
+.command-bar-1, .ms-CommandBar {
+    background-color: #8bcdff !important;
+}
+
+    .command-bar-1 button.ms-CommandBarItem-link:enabled {
+            background-color: #8bcdff !important;
+    }
+
+    .command-bar-1 button.ms-CommandBarItem-link:hover, .ms-CommandBarItem:hover, .ms-CommandBarItem-text:hover {
+            background-color: #80c5ff !important;
+    }
+
+.ms-Button.ms-Button--primary {
+    background-color: #8bcdff !important;
+}
+
+    .ms-Button.ms-Button--primary:hover {
+        background-color: #80c5ff !important;
+    }
+
+/* pivot */ 
+
+.root_d746aa1d .link_d746aa1d.linkIsSelected_d746aa1d::before {
+    border-bottom: 2px solid #8bcdff;
+}
+
+/* ms check */
+
+.field_63b7bc59.fieldIsChecked_63b7bc59::after {
+    border: 5px solid #8bcdff;
+}
+
+.field_63b7bc59.fieldIsChecked_63b7bc59::before {
+    border: 1px solid #8bcdff;
+}
+
+/* icons */
+
+i.ms-ContextualMenu-icon {
+    color: #8bcdff;
+}
+
+/* pagination */
+
+div.ioip-pagination {
+    background-color: #2e2e2e;
+    color: #ffffff !important;
+    border: none;
+}
+
+    div.ioip-pagination.active {
+        background: #8bcdff;
+        color: #1e1e1e !important;
+    }
+
+/* error */ 
+
+.ms-Dialog-main {
+    border: solid 1px #8bcdff;
+}
+
+/* selectors */
+
+div > div > div [class*="ms-Check is-checked"][class*="root-"]::before {
+    background: #8bcdff;
+}
+
+div > .ms-Checkbox.is-checked > label > div[class*="css-"] {
+    border-color: #8bcdff;
+    background: #8bcdff;
+}
+
+/* spinner */
+
+.ms-Spinner-label {
+    color: #8bcdff;
+}
+
+/* copyright */
+
+.ioip-copyright {
+    color: #8bcdff;
+}
+.ms-Link {
+    color: #8bcdff;
+}
+
+/* Dark Theme Customizations */
+
+.ioip-body, .ioip-section, .ms-DetailsList, .ms-Panel-contentInner {
+    background-color: #1E1E1E !important;
+}
+
+.ms-Pivot-text, .ms-Label {
+    color: #ffffff;
+}
+
+.ioip-nav {
+    background-color: #2e2e2e !important;
+}
+
+.ms-Icon,
+div.app-container > div > div > div.ms-Grid-col.ioip-body > div > div > span {
+    color: #ffffff !important;
+}
+
+.ms-CommandBarItem-text {
+    color: #2e2e2e !important;
+}
+
+.ms-FocusZone.ms-DetailsHeader, 
+.ms-FocusZone.ms-DetailsRow  {
+    background-color: #1E1E1E !important;
+}
+
+.ms-FocusZone.ms-ContextualMenu.is-open,
+.ms-Button.ms-Button--default {
+    background-color: #2e2e2e !important;
+}
+
+.ms-Button.ms-Button--default:hover {
+    background-color: #3e3e3e !important;
+}
+
+.ms-font-xl.ms-fontColor-themePrimary, 
+.ms-fontSize-xl.ms-fontColor-themePrimary, 
+.ms-DetailsRow-cell, 
+.ms-DetailsHeader-cellName,
+.ms-Panel-headerText,
+.ms-Grid-col.ms-sm12.ms-md6.ms-lg6 {
+    color: #ffffff !important;
+}
+
+.ms-Checkbox-text {
+    color: #ffffff;
+}
+
+p.ms-fontSize-l.ms-fontColor-themePrimary,
+div.ms-Grid-col.ioip-body > div.ioip-section > div > div > div > div > div > div > div > div > div > span {
+    color: #ffffff !important;
+}
+
+.command-bar-1 button.ms-CommandBarItem-link:enabled 
+span.ms-CommandBarItem-commandText, 
+.command-bar-1 button.ms-CommandBarItem-link:enabled 
+i.ms-CommandBarItem-icon, 
+.command-bar-1 button.ms-CommandBarItem-link:enabled 
+.itemChevronDown_cf1861fb, 
+.ms-CommandBarItem-commandText,
+.command-bar-1 span.ms-CommandBarItem-commandText, 
+.command-bar-1 i.ms-CommandBarItem-icon, 
+.itemChevronDown_cf1861fb, 
+.ms-Button.ms-Button--primary {
+    color: #2e2e2e !important;
+}
+
+[class*="root-"] {
+    color: #ffffff !important;
+}
+
+.ms-Checkbox-checkbox > [class*="root-"] {
+    color: #1e1e1e !important;
+}
+
+[class*="check-"],
+[class*="circle-"] {
+    color: #1e1e1e !important;
+}
+
+.ms-ContextualMenu-link:hover {
+    background-color: #1e1e1e !important;
+}
+
+.ms-DetailsHeader-cell:hover {
+    background-color: #1e1e1e !important;
+}
+
+span.ms-ContextualMenu-itemText:hover, 
+.ms-ContextualMenu-linkContent:hover,
+.ms-ContextualMenu-link:hover {
+    color: #ffffff !important;
+}
+
+[class*="shimmerFadeOut"] {
+    filter: invert(88.2%) !important;
+}
+
+.ms-ComboBox, .ms-TextField-field {
+    background-color: #2e2e2e !important;
+    /* border: 0.3px solid #848484 !important; */
+    color: #ffffff !important;
+}
+
+.ms-ComboBox-Input, .ms-Button.ms-ComboBox-CaretDown-button.ms-Button--icon {
+    background-color: #2e2e2e !important;
+    color: #ffffff !important;
+}
+
+.ms-ComboBox-optionsContainerWrapper {
+    background-color: #1e1e1e !important;
+}
+
+.ms-Button.ms-ComboBox-option.ms-Button--action.ms-Button--command:hover {
+    background-color: #2e2e2e !important;
+}
+
+.ms-Button.ms-ComboBox-option.ms-Button--action.ms-Button--command.is-checked {
+    background-color: #2e2e2e !important;
+}
+
+.ms-Checkbox-text:hover {
+    color: #ffffff !important;
+}
+
+.ms-Checkbox:hover {
+    color: #ffffff !important;
+}
+
+.ms-Checkbox.is-enabled:hover{
+    color: #ffffff !important;
+}
+
+span.ms-Checkbox-text {
+    color: #ffffff !important;
+}
+
+.ms-Layer {
+    background-color: #2e2e2e !important;
+}
+
+div.ms-Callout-beakCurtain {
+    background-color: #2e2e2e !important;
+}
+
+div.ms-Callout.ms-Tooltip {
+    background-color: #2e2e2e !important;
+    border: 1px solid #2e2e2e !important;
+}
+
+p.ms-Tooltip-subtext {
+    background-color: #2e2e2e !important;
+}
+
+div.ms-Callout-beak {
+    background-color: #2e2e2e !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #4e4e4e !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8e8e8e !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bbbbbb !important;
+}
+
+.ioip-nav {
+    height: calc(100% - 120px) !important;
+}
+
+.ms-Dialog-title,
+.ms-Dialog-inner {
+    background-color: #2e2e2e !important;
+    color: #ffffff !important;
+}
+
+.ms-Dialog-subText {
+    color: #ffffff !important;
+}

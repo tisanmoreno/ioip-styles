@@ -1,0 +1,113 @@
+/* CUSTOM CLIENT */
+
+/* Sidebar section */
+
+.ms-Button.ms-Button--default.ba-Accordion-header:focus-visible {
+    border: 1.9px solid rgb(0, 120, 212)!important;
+}
+
+/* CommandBar section */
+
+.command-bar-1, .ms-CommandBar {
+    background-color: #0078d4 !important;
+}
+
+    .command-bar-1 button.ms-CommandBarItem-link:enabled {
+            background-color: #0078d4 !important;
+    }
+
+    .command-bar-1 button.ms-CommandBarItem-link:hover, .ms-CommandBarItem:hover, .ms-CommandBarItem-text:hover {
+            background-color: #106ebe !important;
+    }
+
+.ms-Button.ms-Button--primary {
+    background-color: #0078d4 !important;
+}
+
+    .ms-Button.ms-Button--primary:hover {
+        background-color: #106ebe !important;
+    }
+
+.ms-Fabric--isFocusVisible [class*="itemLink_"]:focus:after,
+.ms-Fabric--isFocusVisible [class*="itemText_"]:focus:after {
+    border: 1px solid #ffffff !important;
+}
+
+div.ms-Grid-col.ioip-body > div.ioip-section > div > div > div.ms-Grid.fadeIn > div > div.ms-Grid-col.ms-sm3.ms-md2.ms-lg3 > div > div > div > div > input:focus {
+     border: 1px solid #0078d4 !important;
+}
+
+/* pivot */ 
+
+.root_d746aa1d .link_d746aa1d.linkIsSelected_d746aa1d::before {
+    border-bottom: 2px solid #0078d4;
+}
+
+/* ms check */
+
+.field_63b7bc59.fieldIsChecked_63b7bc59::after {
+    border: 5px solid #0078d4;
+}
+
+.field_63b7bc59.fieldIsChecked_63b7bc59::before {
+    border: 1px solid #0078d4;
+}
+
+/* icons */
+
+i.ms-ContextualMenu-icon {
+    color: #0078d4;
+}
+
+div.app-container > div > div > div > i {
+    color: #0078d4;
+}
+
+/* pagination */
+
+div.ioip-pagination {
+    color: #0078d4;
+}
+
+    div.ioip-pagination.active {
+        background: #0078d4;
+    }
+
+/* error */ 
+
+.ms-Dialog-main {
+    border: solid 1px #0078d4;
+}
+
+/* selectors */
+
+div > div > div [class*="ms-Check is-checked"][class*="root-"]::before {
+    background: #0078d4;
+}
+
+div > .ms-Checkbox.is-checked > label > div[class*="css-"] {
+    border-color: #0078d4;
+    background: #0078d4;
+}
+
+/* spinner */
+
+.ms-Spinner-label {
+    color: #0078d4;
+}
+
+/* copyright */
+
+.ioip-copyright {
+    color: #0078d4;
+}
+.ms-Link {
+    color: #0078d4;
+}
+
+/* logo */
+
+.busquedaGeneral__logo {
+    width: 270px !important;
+    padding: 10% 0 3% 0;
+}

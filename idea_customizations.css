@@ -1,0 +1,117 @@
+/* CUSTOM CLIENT */
+
+/* Sidebar section */
+
+.ms-Button.ms-Button--default.ba-Accordion-header:focus-visible {
+    border: 1.9px solid rgb(14, 113, 46)!important;
+}
+
+/* CommandBar section */
+
+.command-bar-1, .ms-CommandBar {
+    background-color: rgb(14, 113, 46) !important;
+}
+
+    .command-bar-1 button.ms-CommandBarItem-link:enabled {
+            background-color: rgb(14, 113, 46) !important;
+    }
+
+    .command-bar-1 button.ms-CommandBarItem-link:hover, .ms-CommandBarItem:hover, .ms-CommandBarItem-text:hover {
+            background-color: rgb(9, 95, 36) !important;
+    }
+
+.ms-Button.ms-Button--primary {
+    background-color: rgb(14, 113, 46) !important;
+}
+
+    .ms-Button.ms-Button--primary:hover {
+        background-color: rgb(9, 95, 36) !important;
+    }
+
+.ms-Fabric--isFocusVisible [class*="itemLink_"]:focus:after,
+.ms-Fabric--isFocusVisible [class*="itemText_"]:focus:after {
+    border: 1px solid #ffffff !important;
+}
+
+div.ms-Grid-col.ioip-body > div.ioip-section > div > div > div.ms-Grid.fadeIn > div > div.ms-Grid-col.ms-sm3.ms-md2.ms-lg3 > div > div > div > div > input:focus {
+    border: 1px solid rgb(9, 95, 36) !important;
+}
+
+/* pivot */ 
+
+.root_d746aa1d .link_d746aa1d.linkIsSelected_d746aa1d::before {
+    border-bottom: 2px solid rgb(14, 113, 46);
+}
+
+/* ms check */
+
+.field_63b7bc59.fieldIsChecked_63b7bc59::after {
+    border: 5px solid rgb(14, 113, 46);
+}
+
+.field_63b7bc59.fieldIsChecked_63b7bc59::before {
+    border: 1px solid rgb(14, 113, 46);
+}
+
+/* icons */
+
+i.ms-ContextualMenu-icon {
+    color: rgb(14, 113, 46);
+}
+
+#\36 921c369-a9c6-4d53-9a95-c59492ca0382 > div > div > div > div > div.app-container > div > div > div > i {
+    color: rgb(14, 113, 46);
+}
+
+/* pagination */
+
+div.ioip-pagination {
+    color: rgb(14, 113, 46);
+}
+
+    div.ioip-pagination.active {
+        background: rgb(14, 113, 46);
+    }
+
+/* error */ 
+
+.ms-Dialog-main {
+    border: solid 1px rgb(14, 113, 46);
+}
+
+/* selectors */
+
+div > div > div [class*="ms-Check is-checked"][class*="root-"]::before {
+    background: rgb(14, 113, 46);
+}
+
+div > .ms-Checkbox.is-checked > label > div[class*="css-"] {
+    border-color: rgb(14, 113, 46);
+    background: rgb(14, 113, 46);
+}
+
+/* spinner */
+
+.ms-Spinner-label {
+    color: rgb(14, 113, 46);
+}
+
+/* copyright */
+
+.ioip-copyright {
+    color: rgb(14, 113, 46);
+}
+.ms-Link {
+    color: rgb(14, 113, 46);
+}
+
+/* logo */
+
+.busquedaGeneral__logo {
+    width: 670px !important;
+    padding: 10% 0 3% 0;
+}
+
+#O365_MainLink_TenantLogoImg {
+    height: 90% !important;
+}
